@@ -26,8 +26,7 @@ const Header = () => {
                     <ul className='P-header-list G-flex'>
                         <NavLink onClick={() => setBurger(false)} to='/trip' className='P-header-link'>Trips</NavLink>
                         <NavLink onClick={() => setBurger(false)} to='/about' className='P-header-link'>About</NavLink>
-                        <NavLink onClick={() => setBurger(false)} to='/end'
-                                 className='P-header-link'>The End</NavLink>
+                        
                     </ul>
                 </div>
             </div>
